@@ -1,0 +1,363 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/TeX Live for SUSE Linux) (preloaded format=pdflatex 2023.10.3)  25 OCT 2023 11:43
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/usr/share/texmf/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(/usr/share/texmf/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip50
+\thanksmargin=\skip51
+\droptitle=\skip52
+)
+(/usr/share/texmf/tex/latex/arabtex/arabtex.sty
+(/usr/share/texmf/tex/latex/arabtex/aconfig.sty
+LaTeX2e detected 
+\a@moduledate=\count193
+\a@maindate=\count194
+)
+Package: arabtex 2003/08/22  3.11 ArabTeX main module
+
+(/usr/share/texmf/tex/latex/arabtex/arabaux.sty
+Package: arabaux 2003/05/21  3.11 auxiliary macros for ArabTeX
+)
+(/usr/share/texmf/tex/latex/arabtex/acmd.sty
+Package: acmd 2003/08/20  3.11 Arabic command processing 
+)
+(/usr/share/texmf/tex/latex/arabtex/afonts.sty
+Package: afonts 1995/11/16  3.04 define Naskh font 
+
+(/usr/share/texmf/tex/latex/arabtex/afonts2.sty
+Package: afonts2 1998/10/19  3.10 define Naskh fonts for LaTeX2e
+))
+(/usr/share/texmf/tex/latex/arabtex/ascan.sty
+Package: ascan 2003/08/22  3.11 standard ZDMG input encoding 
+
+(ArabTeX) scanner for code `arabtex' installed.
+(ArabTeX) input encoding set to ArabTeX standard conventions.)
+(/usr/share/texmf/tex/latex/arabtex/aparse.sty
+Package: aparse 2003/05/26  3.11 get syllables 
+)
+(/usr/share/texmf/tex/latex/arabtex/awrite.sty
+Package: awrite 2003/06/05  3.11 build output word 
+
+(/usr/share/texmf/tex/latex/arabtex/xarbsymb.sty
+Package: xarbsymb 1998/07/15  3.07 symbolic output encoding 
+)
+(/usr/share/texmf/tex/latex/arabtex/arabskel.sty
+Package: arabskel 2000/06/04  3.10 character skeleton definitions 
+)
+(/usr/share/texmf/tex/latex/arabtex/xarbskel.sty
+Package: xarbskel 1999/07/17  3.09 character skeleton definitions 
+)
+(/usr/share/texmf/tex/latex/arabtex/aboxes.sty
+Package: aboxes 2003/05/28  3.11 build output boxes
+)
+(/usr/share/texmf/tex/latex/arabtex/arabtoks.sty
+Package: arabtoks 1999/07/17  3.09 ArabTeX CS token definitions 
+)
+(/usr/share/texmf/tex/latex/arabtex/arabchrs.sty
+Package: arabchrs 1998/07/11  3.07 letter token definitions 
+))
+(/usr/share/texmf/tex/latex/arabtex/aligs.sty
+Package: aligs 2003/05/26  3.11 compute ligatures
+)
+(/usr/share/texmf/tex/latex/arabtex/aoutput.sty
+Package: aoutput 2000/06/04  3.10 build output lines
+)
+(/usr/share/texmf/tex/latex/arabtex/abidir.sty
+Package: abidir 2003/08/22  3.11 bidirectional linebreaking
+)
+(/usr/share/texmf/tex/latex/arabtex/atrans.sty
+Package: atrans 2003/06/14  3.11 generate the transliteration 
+ (ArabTeX) ZDMG transliteration.) (/usr/share/texmf/tex/latex/arabtex/alatex.st
+y
+Package: alatex 2003/05/04  3.11 ArabTeX extensions for LaTeX 
+
+(/usr/share/texmf/tex/latex/ledmac/afoot.sty
+Package: afoot 2005/03/24 v0.1 PW's version of ArabTeX's afoot.sty
+))
+(/usr/share/texmf/tex/latex/arabtex/abjad.sty
+Package: abjad 2003/04/26  3.11 abjad numerals 
+)
+(/usr/share/texmf/tex/latex/arabtex/apatch.sty
+(/usr/share/texmf/tex/latex/arabtex/alists.sty
+Package: alists 2003/04/26  3.11 inverted list macros
+)
+(/usr/share/texmf/tex/latex/arabtex/asect.sty
+Package: asect 2003/04/26  3.11 section macros for Arabic
+)
+(/usr/share/texmf/tex/latex/arabtex/atabg.sty
+Package: atabg 1997/01/21  3.05 LaTeX tabbing macros for Arabic
+)
+(/usr/share/texmf/tex/latex/arabtex/alocal.sty
+(ArabTeX) 3.11 local stub, 26.02.2006)
+Package: apatch 2006/07/02  3.11s last minute patches 
+)
+Arabic processor `ArabTeX' [20060702 patch level 3.11s (02.07.2006)]
+(ArabTeX) ... now be patient ... ) (/usr/share/texmf/tex/latex/arabtex/utf8.sty
+(/usr/share/texmf/tex/latex/arabtex/utfcode.sty
+Package: utfcode 2002/03/07  3.10a Arabic+Hebrew segment of UTF-8
+\u@lb=\count290
+\u@lq=\count291
+)
+Package: utf8 2000/06/13  3.10 UTF-8 input encoding 
+
+(ArabTeX) scanner for code UTF-8 installed.)
+(/usr/share/texmf/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks38
+)
+(/usr/share/texmf/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texmf/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count292
+\Gm@cntv=\count293
+\c@Gm@tempcnt=\count294
+\Gm@bindingoffset=\dimen163
+\Gm@wd@mp=\dimen164
+\Gm@odd@mp=\dimen165
+\Gm@even@mp=\dimen166
+\Gm@layoutwidth=\dimen167
+\Gm@layoutheight=\dimen168
+\Gm@layouthoffset=\dimen169
+\Gm@layoutvoffset=\dimen170
+\Gm@dimlist=\toks39
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texmf/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen171
+\Gin@req@width=\dimen172
+)
+(/usr/share/texmf/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count295
+\l__pdf_internal_box=\box66
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=681.15898pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texmf/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count296
+\scratchdimen=\dimen173
+\scratchbox=\box67
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen174
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks41
+) (/usr/share/texmf/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texmf/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(/usr/share/texmf/tex/latex/arabtex/apatch.sty
+\a@lines=\count302
+\a@Lwidth=\dimen175
+\a@displaywidth=\dimen176
+
+(/usr/share/texmf/tex/latex/arabtex/alocal.sty
+(ArabTeX) 3.11 local stub, 26.02.2006)
+(ArabTeX) version 3.11s (02.07.2006): second phase of patching)
+(ArabTeX) input encoding set to UTF-8 conventions
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 30.
+LaTeX Font Info:    Trying to load font information for U+xnsh on input line 33
+.
+
+(/usr/share/texmf/tex/latex/arabtex/Uxnsh.fd
+File: uxnsh.fd  1999/10/19 v3.10 ArabTeX Naskh extd. font definitions
+)
+LaTeX Font Info:    Font shape `U/xnsh/m/n' will be
+(Font)              scaled to size 17.28003pt on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 59.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 59.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <24.88> on input line 60.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <20.74> on input line 60.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 60.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux)
+
+ *File List*
+ article.cls    2022/07/02 v1.4n Standard LaTeX document class
+  size12.clo    2022/07/02 v1.4n Standard LaTeX file (size option)
+inputenc.sty    2021/02/14 v1.3d Input encoding file
+ titling.sty    2009/09/04 v2.1d maketitle typesetting
+ arabtex.sty    2003/08/22  3.11 ArabTeX main module
+ arabaux.sty    2003/05/21  3.11 auxiliary macros for ArabTeX
+    acmd.sty    2003/08/20  3.11 Arabic command processing 
+  afonts.sty    1995/11/16  3.04 define Naskh font 
+ afonts2.sty    1998/10/19  3.10 define Naskh fonts for LaTeX2e
+   ascan.sty    2003/08/22  3.11 standard ZDMG input encoding 
+  aparse.sty    2003/05/26  3.11 get syllables 
+  awrite.sty    2003/06/05  3.11 build output word 
+xarbsymb.sty    1998/07/15  3.07 symbolic output encoding 
+arabskel.sty    2000/06/04  3.10 character skeleton definitions 
+xarbskel.sty    1999/07/17  3.09 character skeleton definitions 
+  aboxes.sty    2003/05/28  3.11 build output boxes
+arabtoks.sty    1999/07/17  3.09 ArabTeX CS token definitions 
+arabchrs.sty    1998/07/11  3.07 letter token definitions 
+   aligs.sty    2003/05/26  3.11 compute ligatures
+ aoutput.sty    2000/06/04  3.10 build output lines
+  abidir.sty    2003/08/22  3.11 bidirectional linebreaking
+  atrans.sty    2003/06/14  3.11 generate the transliteration 
+  alatex.sty    2003/05/04  3.11 ArabTeX extensions for LaTeX 
+   afoot.sty    2005/03/24 v0.1 PW's version of ArabTeX's afoot.sty
+   abjad.sty    2003/04/26  3.11 abjad numerals 
+  apatch.sty    2006/07/02  3.11s last minute patches 
+  alists.sty    2003/04/26  3.11 inverted list macros
+   asect.sty    2003/04/26  3.11 section macros for Arabic
+   atabg.sty    1997/01/21  3.05 LaTeX tabbing macros for Arabic
+    utf8.sty    2000/06/13  3.10 UTF-8 input encoding 
+ utfcode.sty    2002/03/07  3.10a Arabic+Hebrew segment of UTF-8
+geometry.sty    2020/01/02 v5.9 Page Geometry
+  keyval.sty    2022/05/29 v1.15 key=value parser (DPC)
+  ifvtex.sty    2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+   iftex.sty    2022/02/03 v1.0f TeX engine tests
+graphicx.sty    2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+graphics.sty    2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    2021/08/11 v1.11 sin cos tan (DPC)
+graphics.cfg    2016/06/04 v1.11 sample graphics configuration
+  pdftex.def    2022/09/22 v1.2b Graphics/color driver for pdftex
+l3backend-pdftex.def    2023-01-16 L3 backend support: PDF output (pdfTeX)
+supp-pdf.mkii
+epstopdf-base.sty    2020-01-24 v2.11 Base part for package epstopdf
+epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+  apatch.sty    2006/07/02  3.11s last minute patches 
+   Uxnsh.fd
+ ***********
+
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 22 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 4699 strings out of 476025
+ 65242 string characters out of 5798999
+ 1881388 words of memory out of 5000000
+ 25074 multiletter control sequences out of 15000+600000
+ 520263 words of font info for 58 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,10n,62p,233b,1229s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
+sr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/arabt
+ex/xnsh14.pfb>
+Output written on main.pdf (1 page, 49081 bytes).
+PDF statistics:
+ 28 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
