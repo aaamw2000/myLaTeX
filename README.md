@@ -1,2 +1,2 @@
 # myLaTeX
-Repo of all my LaTeX documents
+Repo for most of my LaTeX documents
