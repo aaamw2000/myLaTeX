@@ -1,0 +1,106 @@
+\documentclass[12pt]{exam}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[margin = 2cm]{geometry}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\DeclareMathOperator{\zbb}{\mathbb{Z}-plane}
+\DeclareMathOperator{\wbb}{\mathbb{W}-plane}
+\newcommand{\fz}[0]{\(f(z)\)}
+\newcommand{\pupx}{\frac{\partial\, u}{\partial\, x}}
+\newcommand{\pvpx}{\frac{\partial\, v}{\partial\, x}}
+\newcommand{\pupy}{\frac{\partial\, u}{\partial\, y}}
+\newcommand{\pvpy}{\frac{\partial\, v}{\partial\, y}}
+
+\newcommand{\pupr}{\frac{\partial\, u}{\partial\, r}}
+\newcommand{\pvpr}{\frac{\partial\, v}{\partial\, r}}
+\newcommand{\puptheta}{\frac{\partial\, u}{\partial\, \theta}}
+\newcommand{\pvptheta}{\frac{\partial\, v}{\partial\, \theta}}
+
+
+\footer{}{\thepage}{}
+
+\begin{document}
+
+\begin{center}
+    \bfseries\itshape\Huge
+    SHEET 2
+\end{center}
+\hrule\vspace{0.2em}\hrule
+\vspace{1em}
+
+\begin{questions}
+\large
+\question\ Show that the function 
+
+\begin{equation*}
+    f(z) = 
+    \begin{cases}
+         {\displaystyle\frac{x^2}{\sqrt{x^2 + y^2}}} & z \neq 0 \\
+         \quad\quad 0 & z = 0 \\
+    \end{cases}
+\end{equation*}
+is continuous at the origin \(z = 0\)
+
+\vspace{1em}
+
+\question\ Show that the function defined by 
+\begin{equation*}
+    f(z) = 
+    \begin{cases}
+         {\displaystyle\frac{4x^2 y}{\sqrt{x^4 + y^2}}} & z \neq 0 \\
+         \quad\quad 0 & z = 0 \\
+    \end{cases}
+\end{equation*}
+is discontinuous at the origin \(z = 0\)
+
+\vspace{1em}
+
+\question\ Show that the Cauchy-Riemann equations in polar coordinates are given by
+\begin{equation*}
+    \pupr = \frac{1}{r} \pvptheta \quad\quad \& \quad \quad \pvpr = - \frac{1}{r} \puptheta 
+\end{equation*}
+where \(u(x,y)\) and \(v(x,y)\) are the real and imaginary parts of the complex function \fz\
+
+\vspace{1em}
+
+\question\ Show that \(f'(z)\) and its derivative \(f''(z)\) exist everywhere and use the formula \[f'(z) = \pupx + i \pvpy\] to find \(f'(z)\) and \(f''(z)\) when:
+\begin{parts}
+    \part\ \(f(z) = e^{-x} \left(\cos y - i \sin y \right)\)
+    \part\ \(f(z) = z^3\)
+    \part\ \(f(z) = \cos x \cosh y - i \sin x \sinh y\)
+\end{parts}
+
+\vspace{1em}
+
+\question\ Show that \(\Bar{z}\) and \(|z|\) are \textbf{not} differentiable anywhere
+
+\vspace{1em}
+
+\question\ For the following complex functions, determine which of them is harmonic, and find the harmonic conjugate for each, and express \(u + iv\) as an analytic function of the variable \(z\)
+
+\begin{parts}
+    \part\ \(u = 3x^2y + 2x^2 - y^3 -2y^2\)
+    \part\ \(u = xe^x \cos y - ye^x \sin y\)
+    \part\ \(u = e^{-2xy} \sin\left(x^2 - y^2\right)\)
+    \part\ \(u = x^2 + y^2\)
+    \part\ \(u = 2x\left(1 - y\right)\)
+\end{parts}
+
+
+\question\ Is the following function entire? Explain your answer.
+\[f(x+iy) = 3x + y +i(3y - x)\]
+
+
+\question\ Verify that the Cauchy-Riemann equations are satisfied for the real and imaginary parts of the following functions:
+
+\begin{parts}
+    \part\ \(f(z) = \sin 2z\)
+    \part\ \(f(z) = ze^{-z}\)
+    \part\ \(f(z) = z^2 + 5iz + 3 - i\)
+\end{parts}
+
+\end{questions}
+\end{document}

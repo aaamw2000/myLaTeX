@@ -1,0 +1,88 @@
+\documentclass[12pt]{exam}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[margin = 2cm]{geometry}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newcommand{\pcomnum}[2]{\(#1 +i #2\)}
+\newcommand{\ncomnum}[2]{\(#1 -i #2\)}
+\newcommand{\comcir}[2]{\(\left| z - #1 \right| = #2\)}
+\newcommand{\zbar}[0]{\Bar{z}}
+\newcommand{\modz}[0]{\left|z\right|}
+\newcommand{\cint}[1]{\int_C #1 \ dz}
+\newcommand{\ccint}[1]{\oint_C #1 \ dz}
+\newcommand{\C}[0]{\(C  \) }
+\newcommand{\infsum}[1]{\sum_0^\infty\ #1}
+\newcommand{\sing}[1]{\left(z #1\right)}
+\newcommand{\mac}[0]{Maclaurin series }
+\newcommand{\tay}[0]{Taylor series }
+\newcommand{\lau}[0]{Laurent series }
+
+\footer{}{\thepage}{}
+
+\begin{document}
+
+\begin{center}
+    \bfseries\itshape\Huge
+    SHEET 4
+\end{center}
+\hrule\vspace{0.2em}\hrule
+\vspace{1em}
+
+\begin{questions}
+\large
+\question\ Obtain the \mac\ representation of \[
+z\cosh(z^2) = \infsum{\frac{z^{4n+1}}{(2n)!}}
+\]
+\question\ Obtain the \tay\ representation of \(e^z\) on the form \[
+    e^z = e \infsum{\frac{{(z-1)}^n}{n!}}, \quad |z - 1| < \infty
+\]
+\question\ Find the \mac\ of \[
+f(z) = \frac{z}{z^2 + 9}
+\]
+\question\ Find the \lau\ of the following functions about their isolated singularities 
+\begin{parts}
+    \part\ \(f(z) = \displaystyle\frac{e^{2z}}{{(z-1)}^3}\)
+    \part\ \(f(z) = \displaystyle \left(z-3\right) \sin{\left(\frac{1}{z+2}\right)}\)
+    \part\ \(f(z) = \displaystyle \frac{z - \sin z}{z^3}\)
+\end{parts}
+
+\vspace{1em}
+
+\question\ Find a series representation for the following functions in the indicated domains
+\begin{parts}
+    \part\ \(f(z) = \displaystyle\frac{1}{z(z-3)}\) \hspace{3em}
+    \begin{oneparchoices}
+        \choice\ \(0 < \modz < 3\)
+        \choice\ \(3 < \modz < \infty\)
+    \end{oneparchoices}
+    \part\ \(f(z) = \displaystyle\frac{1}{z(1+z^2)}\) \hspace{2.7em}
+    \begin{oneparchoices}
+        \choice\ \(0 < \modz < 1\)
+        \choice\ \(1 < \modz < \infty\)
+    \end{oneparchoices}
+    \part\ \(f(z) = \displaystyle\frac{(z + 1)}{(z - 1)}\) \hspace{3.7em} 
+    \begin{oneparchoices}
+        \choice\ \(\modz < 1\)
+        \choice\ \(1 < \modz < \infty\)
+    \end{oneparchoices}
+    \part\ \(f(z) = \displaystyle\frac{1}{z^2(1-z)}\) \hspace{3em}
+    \begin{oneparchoices}
+        \choice\ \(0 < \modz < 1\) 
+        \choice\ \(1 < \modz < \infty\)
+    \end{oneparchoices}
+\end{parts}
+\newpage
+\question\ Find the radius \& circle of convergence for the following series:
+\begin{parts}
+    \part\ \(\displaystyle\infsum{\frac{1}{{(1-2i)}^{k+1}} {\left(z-2i\right)}^k}\)
+    \part\ \(\displaystyle\infsum{{(1+3i)}^k {(z-i)}^k}\)
+    \part\ \(\displaystyle\infsum{\frac{{(z-2i)}J^k}{k^k}}\)
+    \part\ \(\displaystyle\infsum{\left(\frac{2-i}{1+5i}\right)z^k}\)
+    \part\ \(\displaystyle\infsum{\frac{2^k}{k(k+1)}z^{2k+1}}\)
+    \part\ \(\displaystyle\infsum{\frac{(2k)!}{{(k!)}^2} {\left(z-3i\right)}^k}\)
+\end{parts}
+\end{questions}
+\end{document}

@@ -1,0 +1,101 @@
+\documentclass[12pt]{exam}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[margin = 2cm]{geometry}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newcommand{\comnum}[2]{\(#1 +i #2\)}
+\newcommand{\comcir}[2]{\(\left| z - #1 \right| = #2\)}
+\newcommand{\zbar}[0]{\Bar{z}}
+\newcommand{\modz}[0]{\left|z\right|}
+\newcommand{\cint}[1]{\int_C #1 \ dz}
+\newcommand{\ccint}[1]{\oint_C #1 \ dz}
+\newcommand{\C}[0]{\(C  \) }
+
+\footer{}{\thepage}{}
+
+\begin{document}
+
+\begin{center}
+    \bfseries\itshape\Huge
+    SHEET 3
+\end{center}
+\hrule\vspace{0.2em}\hrule
+\vspace{1em}
+
+\begin{questions}
+\large
+\question\ Evaluate the integral \[\cint{Re(z)}\] where \C is the line segment from \(0\) to \comnum{1}{}
+
+
+\question\ Find the value of the integral \[\ccint{\frac{1}{z - 2}}\] around:
+\begin{parts}
+    \part\ The circle \comcir{1}{5}
+    \part\ The circle \comcir{2}{4}
+    \part\ The square with vertices at the points \(2 \pm 2i\) and \(-2 \pm 2i\)
+\end{parts}
+
+\question\ Evaluate the integral \[\ccint{\left| z \right| \zbar}\] where \C is the closed contour consisting of the upper semi-circle \(\modz = 1\) and the line segment \(y = 0\) for \(-1 \leq x \leq 1\)
+
+
+\question\ Find the value of \[\cint{\zbar}\] where \C is the parabola \(y = x^2\) from \comnum{-1}{} to \comnum{1}{}
+
+
+\question\ Let \C denote the arc of the circle \(\modz = 2\) from \(z = 2\) to \(z = 2i\) that lies in the first quadrant. Show that:
+\[\left| \cint{\frac{z - 2}{z^4 + 1}} \right| \leq \frac{4 \pi}{15}\]
+
+\question\ Show that if \C is the boundary of the triangle with vertices at the points \(0\), \(3i\), and \(-4\) oriented in the counterclockwise direction, then
+
+\[\left| \cint{\left( e^z - \zbar \right)} \right| \leq 60\]
+
+\question\ Let \C denote the positively-oriented boundary of the square whose sides lie along the lines \(x = \pm2\) and \(y = \pm 2\). Evaluate each of the following integrals:
+\begin{parts}
+    \part\ \(\displaystyle\ccint{\frac{e^{-z}}{z-\frac{\pi}{2}}}\)
+    \part\ \(\displaystyle \ccint{\frac{z}{2z + 1}}\)
+\part\ \(\displaystyle \ccint{\frac{\tan \left(\frac{z}{2}\right)}{{\left(z-1\right)}^2}}\)
+\end{parts}
+
+\vspace{1em}
+
+\question\ Evaluate the integral \[\ccint{\frac{\cos \pi z}{z^2 - 1}}\] around:
+\begin{parts}
+    \part\ Rectangle with vertices at \(2 \pm i\), \(-2 \pm i\)
+    \part\ Rectangle with vertices at \(\pm i\), \(2 \pm i\)
+\end{parts}
+
+\vspace{1em}
+
+\question\ Evaluate the integral \[\ccint{\frac{z^2}{z^2 + 4}}\] where \C is the square with vertices at \(\pm 2\), \(\pm2 +4i\)
+
+\vspace{1em}
+
+\question\ Find the value of the integral \[\ccint{\frac{1}{z+2}}\] where \C is the unit circle \(\modz = 1\)
+
+And hence, deduce that \[\int_0^\pi \frac{1 + 2\cos \theta}{1 + 4 \cos \theta} d\theta = 0\]
+
+
+\question\ Show that \[\ccint{\frac{e^{zt}}{\left(z^2 + 1\right)}} = \pi i \left(\sin t - t\cos t\right)\]
+where \(t > 0\) and \C is the circle \(\modz = 3\)
+
+
+\question\ Evaluate the integral \[\ccint{\frac{\left(3i - z\right)}{\left(z -i\right) \left(z + 2i\right)}}\] where \C is the circle:
+\begin{parts}
+    \part\ \(x^2 + y^2 = 9\)
+    \part\ \(\left| z + 1 \right| = 2\)
+\end{parts}
+
+\vspace{1em}
+
+\question\ Using Cauchy's integral formula, integrate the following counterclockwise:
+
+\begin{parts}
+    \part\ \(\displaystyle \ccint{\frac{z + 2}{z - 2}}\) \quad\quad \ where \(C: \left| z-1 \right| =2\)
+    \part\ \(\displaystyle \ccint{\frac{e^{3z}}{3z - i}}\) \quad\quad where \(C: \left| z \right| =1\)
+    \part\ \(\displaystyle \ccint{\frac{\sinh \pi z}{z^2 - 3z}}\) \quad \ where \(C: \left| z \right| =1\)
+    \part\ \(\displaystyle \ccint{\frac{\tan z}{z - i}}\) \quad\quad \ where \C is the triangle with vertices \(0\) and \(\pm 1 + 2i\)
+\end{parts}
+
+\end{questions}
+\end{document}

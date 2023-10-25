@@ -1,0 +1,98 @@
+\documentclass[12pt]{exam}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[margin = 2cm]{geometry}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newcommand{\pcomnum}[2]{\(#1 +i #2\)}
+\newcommand{\ncomnum}[2]{\(#1 -i #2\)}
+\newcommand{\comcir}[2]{\(\left| z - #1 \right| = #2\)}
+\newcommand{\zbar}[0]{\Bar{z}}
+\newcommand{\modz}[0]{\left|z\right|}
+\newcommand{\cint}[1]{\int_C #1 \ dz}
+\newcommand{\ccint}[1]{\oint_C #1 \ dz}
+\newcommand{\C}[0]{\(C  \) }
+\newcommand{\infsum}[1]{\sum_0^\infty\ #1}
+\newcommand{\sing}[1]{\left(z #1\right)}
+\newcommand{\mac}[0]{Maclaurin series }
+\newcommand{\tay}[0]{Taylor series }
+\newcommand{\lau}[0]{Laurent series }
+\newcommand{\res}[1]{\underset{#1}{Res \ }}
+
+\DeclareMathOperator{\Log}{Log}
+
+\footer{}{\thepage}{}
+
+\begin{document}
+
+\begin{center}
+    \bfseries\itshape\Huge
+    SHEET 5
+\end{center}
+\hrule\vspace{0.2em}\hrule
+\vspace{1em}
+
+\begin{questions}
+\large
+\question\ Determine the location \& order of the zeros for the following functions:
+\begin{parts}
+    \part\ \({\left(z + 16i\right)}^3\)
+    \part\ \(\cot z\)
+    \part\ \(\cos z\)
+    \part\ \(\left(3z^2+1\right)e^{-z}\)
+    \part\ \({\left(z^2 - 1\right)}^2 \left(z + 4\right)\)
+\end{parts}
+
+\question\ Find all the singularities and the corresponding residues of the following:
+\begin{parts}
+    \part\ \(\displaystyle\frac{1}{z^2 + 4}\)
+    \part\ \(\displaystyle\frac{\cos z }{z^3}\)
+    \part\ \(\displaystyle\frac{z^2 + 1}{z^2 - 2}\)
+    \part\ \(\tan z\)
+    \part\ \(\displaystyle\frac{z^2}{z^4 - 1}\)
+    \part\ \(\displaystyle\frac{2z + 1}{z^2 -z -2}\)
+\end{parts}
+
+\question\ Show that all singular points of each of the following functions are poles. Also, determine the order of each pole and the residue of the function at the pole.
+\begin{parts}
+    \part\ \(\tan z\)
+    \part\ \(\displaystyle\frac{1-e^{2z}}{z^4}\)
+    \part\ \(\displaystyle\frac{e^z}{z^2 + \pi^2}\)
+    \part\ \(\displaystyle\frac{1 - \cosh{z}}{z^3}\)
+\end{parts}
+
+\question\ Show that
+\begin{parts}
+    \part\ \(\res{z=-1} \displaystyle\frac{z^{\frac{1}{4}}}{z+1} = \frac{1 + i}{\sqrt{2}}\) \quad\quad \(\modz > 0 \ ,\quad 0 < \arg z < 2\pi\)
+    \part\ \(\res{z=i} \displaystyle\frac{\Log z}{{(z^2 + 1)}^2} = \frac{\pi + 2i}{8}\)\
+    \part\ \(\res{z=\pi i} \displaystyle\frac{e^z}{\sinh{z}} + \res{z=-\pi i} \ \displaystyle\frac{e^z}{\sinh{z}} = -2 \cos \pi\)
+\end{parts}
+
+\question\ Use Cauchy's residue theorem to evaluate the following:
+\begin{parts}
+    \part\ \(\displaystyle\ccint{\frac{\sin \pi z}{z^4}}\) \newline\newline where \(C\) is the circle \comcir{i}{2}, described in the positive sense.
+    \part\ \(\displaystyle\ccint{\frac{1}{{(z-1)}^3 (z+4)}}\) \newline\newline where \C is the circle \(\modz = 3\), described in the positive sense.
+    \part\ \(\displaystyle\ccint{\frac{z+10}{6z^2 +5z +1}}\) \newline\newline where \C is the circle:
+    \begin{subparts}
+        \subpart\ \(\modz = 1\)
+        \subpart\ \(\modz = 2\)
+        \subpart\ \(\modz = 3\)
+    \end{subparts}
+
+    \part\ \(\displaystyle\ccint{e^{-\frac{1}{z}} \sin{\frac{1}{z}}}\) \newline\newline where \C is the circle \(\modz = 1\), described in the positive sense.
+    \part\ \(\displaystyle\ccint{\frac{e^{-z}}{{(z-1)}^5}}\) \newline\newline where \C is the circle \(\modz = 2\), described in the positive sense.
+\end{parts}
+\question\ Find the value of \[\displaystyle\ccint{\frac{3z^2+2}{(z-1)(z^2+9)}}\] taken counterclockwise around the circle:
+\begin{parts}
+    \part\ \comcir{2}{2}
+    \part\ \(\modz = 4\)
+\end{parts}
+\question\ If \C is the circle \(\modz = 1\) described in the positive sense, show that:
+\begin{parts}
+    \part\ \(\displaystyle\ccint{\frac{e^{-z}}{z^2}} = -2\pi i\)
+    \part\ \(\displaystyle\ccint{ze^{\frac{1}{z}}} = \pi i\)
+\end{parts}
+\end{questions}
+\end{document}
