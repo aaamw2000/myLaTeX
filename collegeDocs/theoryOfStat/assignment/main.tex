@@ -1,0 +1,96 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage[margin=2cm]{geometry}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{lipsum}
+\usepackage{mathtools}
+\usepackage{empheq}
+
+\newtheorem*{provethat}{Prove That}
+\newcommand{\infint}[2]{\int_{-\infty}^{\infty} #1 d#2}
+
+\renewcommand{\maketitle}{
+\begin{center}
+    \Huge\bfseries aaamw \\
+	\vspace{5pt}
+    \Large\bfseries Theory of Statistics (1) \\
+	Assignment \\
+    \vspace{0.3em}
+	\large December 11\textsuperscript{th}, 2023 \\
+\end{center}
+}
+
+
+\title{Complex Functions Assignment}
+\author{aaamw}
+\date{Monday, December 11th, 2023}
+
+\begin{document}
+
+\pagenumbering{0}
+
+\begin{center}
+   \topskip10cm
+    \includegraphics[width=0.7\textwidth]{uniLogo.jpg}  
+\end{center}
+
+\maketitle
+
+\newpage
+
+\pagenumbering{arabic}
+
+\section*{Prove that:}
+\Large
+\[
+X \thicksim Norm(\mu, \sigma^2) \longrightarrow	M_x(t) = e^{\mu t +\frac{1}{2} \sigma^2 t^2} 
+\]
+
+\vspace{1em}
+\hrule\
+\begin{center}
+Since the PDF of the normal distribution is: 
+\begin{align*}
+f(x) &= \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{1}{2} \left(\frac{x-\mu}{\sigma}\right)^2} \\ \\ % chktex 3
+\therefore M_x(t) = E(e^{xt}) &= \infint{e^{xt} \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{1}{2} \left(\frac{x-\mu}{\sigma}\right)^2}}{x}\\ %chktex 3
+							  &= \frac{1}{\sqrt{2\pi\sigma^2}}	\infint{e^{xt - \frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}}{x} % chktex 3
+\end{align*}
+
+\vspace{2em}
+Now take the substitution \(z = \frac{x-\mu}{\sigma}\) \\
+\(x = \sigma z + \mu \longrightarrow dx = \sigma z \)
+
+\begin{align*}
+	\therefore M_x(t) &= \frac{1}{\sqrt{2\pi\sigma^2}}	\infint{e^{\sigma zt + \mu t - \frac{1}{2}z^2} \sigma}{z} \\ % chktex 3
+					  &= \frac{1}{\sqrt{2\pi}}e^{\mu t}	\infint{e^{\sigma zt - \frac{1}{2}z^2} }{z} % chktex 3
+\end{align*}
+
+\vspace{2em}
+By completing the square on the exponent \( \sigma zt - \frac{1}{2}z^2 \)
+
+\begin{align*}
+	\therefore M_x(t) &= \frac{1}{\sqrt{2\pi}}e^{\mu t}	\infint{e^{-\frac{1}{2}\left(z-\sigma t \right)^2 + \frac{1}{2}\sigma^2 t^2} }{z} \\  % chktex 3 
+					  &= e^{\mu t} e^{\frac{1}{2}\sigma^2 t^2}	\frac{1}{\sqrt{2\pi}} \infint{e^{-\frac{1}{2}\left(z-\sigma t \right)^2}}{z} % chktex 3
+\end{align*}
+
+\newpage
+Since \( \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2}\left(z-\sigma t \right)^2} \) is just the PDF of the standard normal shifted by \(\sigma t\)
+
+\[
+	\because \int PDF = 1  \longrightarrow  \infint {\frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2}\left(z-\sigma t \right)^2}}{z} = 1
+\]
+
+\begin{align*}
+	\therefore M_x(t) &= e^{\mu t} e^{\frac{1}{2}\sigma^2 t^2}	\\
+					  &= e^{\mu t +\frac{1}{2}\sigma^2 t^2}
+\end{align*}
+
+
+\end{center}
+
+\end{document}
