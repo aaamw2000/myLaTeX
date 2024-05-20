@@ -1,0 +1,132 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage[margin=2cm]{geometry}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{lipsum}
+\usepackage{fancyhdr}
+\usepackage{rotating}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usepackage{pdfpages}
+\usepackage{xcolor}
+
+
+\graphicspath{{./resources/}}
+
+\newcommand{\bb}[1]{\textbf{\textit{#1}}}
+\newcommand{\vio}[1]{\textbf{\textcolor{violet}{#1}}}
+\newcommand{\elix}{\vio{Elixir}}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={miniMBAProject},
+    pdfpagemode=FullScreen,
+    }
+
+\lhead{\elix}
+\chead{}
+\rhead{\includegraphics[scale=0.6]{/elixir.png}}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+
+\renewcommand{\thefigure}{}
+
+\renewcommand{\maketitle}{
+\begin{center}
+    \Huge\textbf{\elix\ programming language} \\ 
+    \vspace{1em}
+    \Large\bfseries Yahia Fawzy Rashwan  \\
+    {20221466198} \\
+    \Large\bfseries Ahmed Ashraf Saeed \\
+    {20221454558} \\
+    \Large\bfseries Amr Ahmed Abdullatif  \\
+    {20201615334} \\
+
+    \vspace{1em}
+    \large Feb 24\textsuperscript{th}, 2023
+\end{center}
+}
+
+
+\title{CPL assignment}
+\author{Amr Wahdan}
+\date{}
+
+\begin{document}
+\pagenumbering{0}
+
+\begin{center}
+   \topskip8cm
+    \includegraphics[width=0.8\textwidth]{uniLogo.jpg}  
+\end{center}
+\vspace{1em}
+\begin{center}
+    \scalebox{1.5}{\Huge\textbf{Concepts of Programming}}
+    \scalebox{1.5}{\Huge\textbf{Languages}}
+\end{center}
+\vspace{1em}
+\maketitle
+\pagenumbering{roman}
+\newpage
+
+\begin{center}
+   \topskip7cm
+    \includegraphics[width=1\textwidth]{elixir.png}  
+\end{center}
+\vspace{2em}
+\hrule\vspace{0.2em}\hrule
+\vspace{2em}
+{\large
+\begin{itemize}
+    \item \elix\ is a functional, concurrent, general-purpose programming language designed for building scalable, fault-tolerance, and maintainable applications. It was created by José Valim and was released in 2011. \elix\ is built on top of the Erlang Virtual Machine (BEAM) and is heavily inspired by Erlang's syntax and features. It combines the productivity and expressiveness of modern programming languages with the robustness and fault tolerance of the Erlang ecosystem. 
+
+    \item \elix\ is aimed at large-scale sites and apps. It uses features of Ruby, Erlang, and Clojure to develop a high-concurrency and low-latency language. It was designed to handle large data volumes. \elix\ is also used in telecommunications, e-commerce, and finance. 
+
+    \item \elix\ has garnered favor among developers due to its productivity, performance, and resilience since its inception. It has found widespread application in diverse fields such as web development, distributed systems, real-time communication, Internet of Things (IoT), and gaming. The language consistently advances through frequent releases, updates, and collaborative contributions from the community, positioning itself as a promising choice for constructing scalable and easily maintainable applications.
+
+\end{itemize}
+}
+
+\newpage
+\pagenumbering{arabic}
+\pagestyle{fancy}
+\topskip2cm
+\section{Why \elix\ }
+\begin{enumerate}[label= \roman*.]
+    \item \bb{Concurrency}: \elix\ was built with concurrency in mind since it was made for telecommunications. In \elix\, concurrency is not handled in a usual way. Instead, it is handled through light-weight processes that are scheduled on the BEAM (Bogdan / Björn's Erlang Abstract Machine) \@ VM and managed by the \@ VM's built-in scheduler that acts in a similar manner to an operating system scheduler. Likewise, these processes communicate with each other through messages as if they were actual operating system processes. It also has new concurrency primitives that enable fine-grained control for the developer.
+
+    \item \bb{Scalability}: \elix\ has native support for scalable applications. It enables both vertical (Adding more power to your machine) and horizontal (adding more nodes to your cluster) scaling by relying on the powerful features of the BEAM \@ VM. The BEAM \@ VM makes use of its built-in schedulers that implement work-stealing to effeciently distribute the work load over the cluster. This eases the implementation of distrubuted systems using \elix. This support for scalability is even more enhanced by partitioning the program into separate, isolated processes that are allowed to fail without the whole system failing, that talk to each other using messages as discussed above. This makes it possible to distribute these processes on the nodes of the cluster.
+
+    \item \bb{Reliabilty and fault-tolerance}: \elix\ implements an actor model. It splits the program into isolated processes called "actors", and these processes enjoy similar structure to a regular OS process -- each contains its isolated memory (heap \& stack) -- and communication between these processes takes place through message passing, which is also similar to what happens in an \@ OS. It also implements supervision trees where processes are structured into a tree of supervision. Each node in that tree represents a process that supervises the processes underneath it. In the unfortunate case when a child process crashes or stops functioning properly, its supervisor process will attempt to relaunch it.
+
+    \item \bb{Hot code swapping}: \elix\ allows hot-code swapping, which is the altering of code during runtime. This feature is one of the few features that truly sets \elix\ apart from other programming Languages. This ensures high-availability even when different code is needed. You no longer need to take your service down to update the features you're offering or fix bugs. With \elix\, you can just swap that part of your code out for a newer improved one.
+
+    \item \bb{Meta-programming}: Meta-programming in \elix\ is mainly about its implementation and use of programming macros that expand during compile-time. These macros act in a simliar manner to the concept of reflection in Java. It allows the developer to make a program that is able to change its code base dynamically depending on the environment around it and how the macros are defined.
+
+
+\end{enumerate}
+\newpage
+
+\section{Project Idea: HTTP Web Server}
+The main goal of the project is to make a simple HTTP server that is basically a dumbed-down version of \href{https://www.nginx.com/}{Nginx}. It should server simple static HTML web pages. It also should have support for concurrency to handle multiple requests. And it should be configurable through a config file that allows the user to customize their experience. To add to that, it should log its errors in a log file in an appropriate place for the server admin to view to clean up when necessary.
+
+\section{Why \elix\ for Web Servers?}
+
+We find that \elix\ is very suitable for pogramming web servers and servers in general. It focus on \vio{reliabilty and fault-tolerance} reserves a place for it on the web server space. Any web server needs to be up almost \textit{all the time}. And \elix's supervision trees gives a unique and efficient approach to solving that problem. \par
+
+Other than that, \elix's well-thought-out \vio{concurrency} model makes the handling of multiple requests a walk in the park. And everyone knows that web servers, of all programs, get a ton of requets all the time. \par
+
+And as we have mentioned earlier, \elix\ also comes with built-in support for scalable apps that can easily distribute their wordload over multiple machines inside a cluster. This native support for \vio{scalability} makes \elix\ a perfect choice for web servers that tend to need lots of processing power and frequently get run over multple powerful machines. \par
+
+Furthermore, \elix\ has support for \vio{hot-code swapping} which is a highly useful feature when it comes to web servers. Many times during the lifetime of a web server, the need may arise to add or remove features to/from it. Having the ability to swap code out/in during runtime without taking the server down is a really desirable feature that will avoid significant losses if that server was running vital services. \par
+
+\vspace{2em}
+
+All of these features make \elix\ the right choice for making web servers. \par
+\end{document}
