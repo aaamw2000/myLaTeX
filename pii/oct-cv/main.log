@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/TeX Live for SUSE Linux) (preloaded format=pdflatex 2024.9.6)  18 SEP 2024 11:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/TeX Live for SUSE Linux) (preloaded format=pdflatex 2024.9.6)  18 SEP 2024 11:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -333,7 +333,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 55.
-<./resources/FOS_logo.jpg, id=9, 607.51968pt x 296.60812pt>
+<./resources/FOS_logo.jpg, id=10, 607.51968pt x 296.60812pt>
 File: ./resources/FOS_logo.jpg Graphic file (type jpg)
 <use ./resources/FOS_logo.jpg>
 Package pdftex.def Info: ./resources/FOS_logo.jpg  used on input line 76.
@@ -357,7 +357,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--103
 
  []
 
-<./resources/nedialo-black.jpg, id=27, 624.3325pt x 592.2125pt>
+<./resources/nedialo-black.jpg, id=29, 624.3325pt x 592.2125pt>
 File: ./resources/nedialo-black.jpg Graphic file (type jpg)
 <use ./resources/nedialo-black.jpg>
 Package pdftex.def Info: ./resources/nedialo-black.jpg  used on input line 114.
@@ -368,7 +368,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--128
 
  []
 
-<./resources/tt_coldcalling.jpg, id=28, 2055.68pt x 2055.68pt>
+<./resources/tt_coldcalling.jpg, id=31, 2055.68pt x 2055.68pt>
 File: ./resources/tt_coldcalling.jpg Graphic file (type jpg)
 <use ./resources/tt_coldcalling.jpg>
 Package pdftex.def Info: ./resources/tt_coldcalling.jpg  used on input line 138
@@ -389,7 +389,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--177
 
  []
 
-<./resources/pbs_lowquality_coldcalling.jpg, id=29, 1084.05pt x 949.5475pt>
+<./resources/pbs_lowquality_coldcalling.jpg, id=34, 1084.05pt x 949.5475pt>
 File: ./resources/pbs_lowquality_coldcalling.jpg Graphic file (type jpg)
 <use ./resources/pbs_lowquality_coldcalling.jpg>
 Package pdftex.def Info: ./resources/pbs_lowquality_coldcalling.jpg  used on in
@@ -409,12 +409,14 @@ Overfull \hbox (14.75862pt too wide) in paragraph at lines 211--217
 ]\TS1/cmr/m/n/14.4 ˆ[]  \OT1/cmr/bx/it/14.4 Leader 
  []
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 219.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.218 \end{document}
+l.222 \end{document}
                      [3 <./resources/pbs_lowquality_coldcalling.jpg>]
 (./main.aux)
  ***********
@@ -425,22 +427,23 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9283 strings out of 474116
- 144047 string characters out of 5752737
+ 9284 strings out of 474116
+ 144061 string characters out of 5752737
  1937187 words of memory out of 5000000
- 31552 multiletter control sequences out of 15000+600000
+ 31553 multiletter control sequences out of 15000+600000
  560953 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,424b,438s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,436b,438s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf
 /fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12
-.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on main.pdf (3 pages, 420480 bytes).
+.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texm
+f/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfrm1440.pfb>
+Output written on main.pdf (3 pages, 433921 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 86 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
