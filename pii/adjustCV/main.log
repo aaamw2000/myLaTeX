@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/TeX Live for SUSE Linux) (preloaded format=pdflatex 2026.2.28)  26 MAR 2026 00:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/TeX Live for SUSE Linux) (preloaded format=pdflatex 2026.2.28)  26 MAR 2026 00:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -345,19 +345,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--88
 
  []
 
-<e-cens-logo.jpeg, id=28, 200.75pt x 200.75pt>
-File: e-cens-logo.jpeg Graphic file (type jpg)
-<use e-cens-logo.jpeg>
-Package pdftex.def Info: e-cens-logo.jpeg  used on input line 100.
+<./resources/e-cens-logo.jpeg, id=28, 200.75pt x 200.75pt>
+File: ./resources/e-cens-logo.jpeg Graphic file (type jpg)
+<use ./resources/e-cens-logo.jpeg>
+Package pdftex.def Info: ./resources/e-cens-logo.jpeg  used on input line 100.
 (pdftex.def)             Requested size: 100.09526pt x 100.096pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 110--113
 
  []
 
-File: e-cens-logo.jpeg Graphic file (type jpg)
-<use e-cens-logo.jpeg>
-Package pdftex.def Info: e-cens-logo.jpeg  used on input line 123.
+File: ./resources/e-cens-logo.jpeg Graphic file (type jpg)
+<use ./resources/e-cens-logo.jpeg>
+Package pdftex.def Info: ./resources/e-cens-logo.jpeg  used on input line 123.
 (pdftex.def)             Requested size: 100.09526pt x 100.096pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 132--135
@@ -378,7 +378,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.155 \section
-              *{Education} [2 <./e-cens-logo.jpeg>]
+              *{Education} [2 <./resources/e-cens-logo.jpeg>]
 <./resources/FOS_logo.jpg, id=36, 607.51968pt x 296.60812pt>
 File: ./resources/FOS_logo.jpg Graphic file (type jpg)
 <use ./resources/FOS_logo.jpg>
@@ -423,10 +423,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9396 strings out of 473190
- 145493 string characters out of 5725178
+ 9398 strings out of 473190
+ 145621 string characters out of 5725178
  559912 words of memory out of 5000000
- 32557 multiletter control sequences out of 15000+600000
+ 32559 multiletter control sequences out of 15000+600000
  561721 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,435b,560s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -436,7 +436,7 @@ ic/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12
 .pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texm
 f/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/publi
 c/cm-super/sfrm1440.pfb>
-Output written on main.pdf (4 pages, 203932 bytes).
+Output written on main.pdf (4 pages, 204345 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream
