@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/TeX Live for SUSE Linux) (preloaded format=pdflatex 2026.2.28)  26 MAR 2026 00:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/TeX Live for SUSE Linux) (preloaded format=pdflatex 2026.2.28)  26 MAR 2026 21:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -341,33 +341,33 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
 dvips/cm-super/cm-super-ts1.enc} <./resources/github.png> <./resources/linkedin
 .png>]
-Underfull \hbox (badness 10000) in paragraph at lines 85--88
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
 
  []
 
 <./resources/e-cens-logo.jpeg, id=28, 200.75pt x 200.75pt>
 File: ./resources/e-cens-logo.jpeg Graphic file (type jpg)
 <use ./resources/e-cens-logo.jpeg>
-Package pdftex.def Info: ./resources/e-cens-logo.jpeg  used on input line 100.
+Package pdftex.def Info: ./resources/e-cens-logo.jpeg  used on input line 99.
 (pdftex.def)             Requested size: 100.09526pt x 100.096pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--113
+Underfull \hbox (badness 10000) in paragraph at lines 109--112
 
  []
 
 File: ./resources/e-cens-logo.jpeg Graphic file (type jpg)
 <use ./resources/e-cens-logo.jpeg>
-Package pdftex.def Info: ./resources/e-cens-logo.jpeg  used on input line 123.
+Package pdftex.def Info: ./resources/e-cens-logo.jpeg  used on input line 122.
 (pdftex.def)             Requested size: 100.09526pt x 100.096pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--135
+Underfull \hbox (badness 10000) in paragraph at lines 131--134
 
  []
 
 <./resources/nedialo-black.jpg, id=31, 624.3325pt x 592.2125pt>
 File: ./resources/nedialo-black.jpg Graphic file (type jpg)
 <use ./resources/nedialo-black.jpg>
-Package pdftex.def Info: ./resources/nedialo-black.jpg  used on input line 148.
+Package pdftex.def Info: ./resources/nedialo-black.jpg  used on input line 147.
 
 (pdftex.def)             Requested size: 100.09526pt x 94.9457pt.
 
@@ -377,20 +377,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.155 \section
+l.154 \section
               *{Education} [2 <./resources/e-cens-logo.jpeg>]
 <./resources/FOS_logo.jpg, id=36, 607.51968pt x 296.60812pt>
 File: ./resources/FOS_logo.jpg Graphic file (type jpg)
 <use ./resources/FOS_logo.jpg>
-Package pdftex.def Info: ./resources/FOS_logo.jpg  used on input line 162.
+Package pdftex.def Info: ./resources/FOS_logo.jpg  used on input line 161.
 (pdftex.def)             Requested size: 150.14671pt x 73.3055pt.
 
-Underfull \hbox (badness 1067) in paragraph at lines 173--174
+Underfull \hbox (badness 1067) in paragraph at lines 172--173
 []\OT1/cmr/bx/it/14.4 Major in Com-puter Sci-ence & mi-nor in
  []
 
 
-Overfull \hbox (18.13329pt too wide) in paragraph at lines 159--177
+Overfull \hbox (18.13329pt too wide) in paragraph at lines 158--176
 []$[]$ $[]$ 
  []
 
@@ -401,11 +401,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.199 ...ian Syndicate of Scientific Professions}}
+l.198 ...ian Syndicate of Scientific Professions}}
                                                   : vice head of the public ...
 [3 <./resources/nedialo-black.jpg> <./resources/FOS_logo.jpg>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 206.
+(Font)              <5> on input line 211.
 
 
 
@@ -413,7 +413,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.209 \end{document}
+l.214 \end{document}
                      [4] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
@@ -423,9 +423,9 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9398 strings out of 473190
- 145621 string characters out of 5725178
- 559912 words of memory out of 5000000
+ 9399 strings out of 473190
+ 145631 string characters out of 5725178
+ 558912 words of memory out of 5000000
  32559 multiletter control sequences out of 15000+600000
  561721 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -436,10 +436,10 @@ ic/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12
 .pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texm
 f/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/publi
 c/cm-super/sfrm1440.pfb>
-Output written on main.pdf (4 pages, 204345 bytes).
+Output written on main.pdf (4 pages, 204653 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
+ 95 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
